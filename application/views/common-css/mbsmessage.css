@@ -1,0 +1,37 @@
+#mbsmessage {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+	margin: 0 auto;
+	z-index: 999;
+}
+#mbsmessage > div {
+	background: #fff1a8;
+	padding: 5px 10px;
+	width: auto;
+	display: inline-block;
+	border-radius: 1px;
+	font-size: 13px;
+	border: solid 1px #fff1a8;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+	min-width: 200px;
+}
+#mbsmessage .content {
+	color: #000;
+	font-weight: 600;
+	display: inline-block;
+}
+#mbsmessage img.close { float:right;
+	display: inline-block;
+	cursor: pointer;
+	vertical-align: middle;
+	margin-left: 15px; margin-top:4px;
+}
+#mbsmessage .content a {
+	text-decoration: underline;
+}
+#mbsmessage .content a:hover {
+	text-decoration: none;
+}
